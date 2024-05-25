@@ -10,7 +10,6 @@ class Solution {
             y = y >> 1;
             x = (x * x) % mod;
         }
-        System.out.println(res);
         return res % mod;
     }
     public int countGoodNumbers(long n) {
