@@ -17,7 +17,6 @@ class Solution {
         int mod = (int)(1e9) + 7;
         long o = power(5,(n+1)/2, mod);
         long e = power(4,n/2, mod);
-        System.out.printf("%d %d", o, e);
         return (int)((e * o) % mod);
     }
 }
